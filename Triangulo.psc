@@ -8,7 +8,7 @@ Leer segmento3
 Si segmento1+segmento2 > segmento3 y segmento2+segmento3 > segmento1 y segmento1+segmento3 > segmento2 Entonces
 	Escribir "Se pueden formar un triangulo"
 	SiNo
-		Escribir "No se puede formar un triangulo fallado"
+		Escribir "No se puede formar un triangulo."
 	FinSi
 		
 Si segmento1 > segmento2 y segmento1 > segmento3 Entonces
@@ -31,7 +31,8 @@ Si segmento3 > segmento1 y segmento3 > segmento2 Entonces
 	hip = segmento3
 	Escribir "El segmento3 es la hipotenusa"
 	SiNo
-		Escribir "No hay hipotenusa y por tanto no es un triangulo réctangulo"
+		Escribir "No hay hipotenusa y por tanto no es un triangulo rÃ©ctangulo"
 		Escribir "El area es:" cat1*cat2/2 = area
 FinSi
 FinAlgoritmo
+
